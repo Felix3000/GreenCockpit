@@ -11,10 +11,10 @@
 	<title>Green Cockpit 2.0</title>
 
 	 <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+ <!--   <link href="css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Custom styles for this template -->
-    <link href="css/starter-template.css" rel="stylesheet">
+    <!-- Custom styles for this template 
+    <link href="css/starter-template.css" rel="stylesheet"> 
 
     <!-- Just for debugging purposes. Don't actually copy this line! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
@@ -27,7 +27,7 @@
 
 </head>
 
-<body>
+<!--<body>
 	 <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
       <div class="container">
         <div class="navbar-header">
@@ -51,8 +51,10 @@
             <li><a href="?mode=impressum">Impressum</a></li>
           </ul>
         </div><!--/.nav-collapse -->
-      </div>
+ <!--     </div>
     </div>
+
+
 
     <div class="container">
 
@@ -67,7 +69,7 @@
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-  
+<!--  
 <script src="js/jquery-1.8.3.min.js"></script>
 <script src="js/highcharts.js"></script>
 <script src="js/bootstrap.min.js"></script>
@@ -80,7 +82,19 @@
 
 
 </body>
+-->
 
+<body>
+         <a href="index.php">Home</a>
+            <a href="?mode=analyse">Analyse</a>
+           <a href="?mode=planning">Planning</a>
+            <a href="?mode=controlling">Controlling</a>
+            <a href="?mode=refresh">Refresh Data</a>
+            <a href="?mode=help">Help</a>
+            <a href="settings.php">Settings</a>
+            <a href="?mode=impressum">Impressum</a>
+
+</body>
 
 <?php
 	
