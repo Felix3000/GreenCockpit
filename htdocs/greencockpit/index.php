@@ -47,8 +47,6 @@
             <li><a href="?mode=controlling">Controlling</a></li>
             <li><a href="?mode=refresh">Refresh Data</a></li>
             <li><a href="?mode=help">Help</a></li>
-            <li><a href="settings.php">Settings</a></li>
-            <li><a href="?mode=impressum">Impressum</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
